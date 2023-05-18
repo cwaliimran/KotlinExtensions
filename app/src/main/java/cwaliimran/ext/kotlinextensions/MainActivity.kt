@@ -2,6 +2,8 @@ package cwaliimran.ext.kotlinextensions
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import cwaliimran.ext.datetime.DATE_FORMAT
+import cwaliimran.ext.datetime.getCurrentFormattedDate
 import ext.logcat.LogHelper.logD
 
 class MainActivity : AppCompatActivity() {
@@ -9,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         logD("")
+
     }
 }
